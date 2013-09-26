@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">dixit</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="domain">http://202.189.102.219:3000</string>
+	<string name="app_id">505299526202637</string>
+    <string name="get_started">To get started, log in using Facebook</string>
+    <string name="settings">Settings</string>
+    <string name="action_play">Play Game</string>
+    <string name="action_play_default">Click Here</string>
+    <string name="description">Blah</string>
+    
+</resources>

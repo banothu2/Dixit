@@ -1,0 +1,30 @@
+<!Doctype html>
+<html>
+
+<body>
+<script>
+function Log(s){console.log(s);}
+  var ws = new WebSocket("ws://127.0.0.1:3000");
+  ws.onopen = WSonOpen;
+ws.onmessage = WSonMessage;
+ws.onclose = WSonClose;
+ws.onerror = WSonError;
+function WSonOpen() {
+    Log("OK", "OK");
+};
+
+function WSonMessage(event) {
+    Log("event");            
+};
+
+function WSonClose() {
+    Log("CLOSE");
+};
+
+
+function WSonError() {
+    Log("ERROR");
+};
+</script>
+</body>
+</html>
